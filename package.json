@@ -1,0 +1,24 @@
+{
+  "name": "code-split",
+  "version": "1.0.0",
+  "description": "",
+  "main": "webpack.config.js",
+  "scripts": {
+    "webpack-dev-server": "webpack-dev-server",
+    "dev": "npm run webpack-dev-server --hot"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "file-loader": "^1.1.11",
+    "html-webpack-plugin": "^3.2.0",
+    "url-loader": "^1.0.1",
+    "webpack": "^4.16.5",
+    "webpack-cli": "^3.1.0",
+    "webpack-dev-server": "^3.1.5"
+  },
+  "dependencies": {
+    "date-fns": "^1.29.0",
+    "lodash-es": "^4.17.10"
+  }
+}
